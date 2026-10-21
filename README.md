@@ -1,7 +1,6 @@
 # Mehrere Terminals trennen: Multiway-Cut und k-Schnitt – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-multiway-cut-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-multiway-cut-demo.streamlit.app/)**
 
 Drittes Stück der Reihe **Schnitte und Zusammenhang** (Arbeitstitel der Linie `schnitte-zusammenhang`) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“, Bereich Graphentheorie. Vehikel: ein **Verbindungsnetz zwischen Standorten** (Depots, Umschlagpunkte, Werke), synthetisch und mit festem Zufalls-Seed, alle Leitungen gleich, dazu **k Terminals**, die voneinander getrennt werden sollen. Die Demo fragt: **Wie viele Verbindungen kostet es, k Standorte voneinander zu trennen?** Für zwei Terminals ist das ein kleinster Schnitt (ein Fluss), ab drei Terminals ist die Aufgabe (**Multiway-Cut**) NP-schwer. Das einfachste Verfahren mit Gütegarantie trennt **jedes Terminal einzeln** vom Rest (**isolierender Schnitt**, ein Fluss) und nimmt die **Vereinigung der k − 1 billigsten**: höchstens das **(2 − 2/k)-Fache** des Optimums. Der zweite Tab zeigt das verwandte Problem ohne feste Terminals, den **k-Schnitt** (das Netz in k Teile zerlegen), mit Greedy-Zerlegen und derselben Garantie.
 
