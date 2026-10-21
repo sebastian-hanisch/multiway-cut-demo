@@ -1,0 +1,10 @@
+{
+ "mwc_algorithm.py|konstante|1 -> 2|84b516a0#0": "equivalent",
+ "mwc_algorithm.py|konstante|1 -> 2|98abf7f5#0": "equivalent",
+ "mwc_algorithm.py|konstante|1 -> 2|98abf7f5#1": "equivalent",
+ "mwc_algorithm.py|logik|and -> or|e9b041a4#0": "equivalent",
+ "mwc_algorithm.py|schleife|range(n) -> range(n - 1)|03acd6b6#0": "equivalent",
+ "mwc_algorithm.py|sortierung|reverse umgekehrt|9447b67c#0": "equivalent",
+ "mwc_algorithm.py|vergleich|< -> <=|03acd6b6#0": "equivalent",
+ "mwc_algorithm.py|vergleich|< -> <=|fd7b4042#0": "equivalent"
+}
