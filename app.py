@@ -97,7 +97,7 @@ with st.expander("So trennt man mehrere Terminals", expanded=True):
 1. **Multiway-Cut:** Gesucht ist eine kleinste Menge von Leitungen, nach deren Entfernen keine zwei der k Terminals mehr verbunden sind.
 2. **Isolierender Schnitt:** Für jedes Terminal t zieht man alle anderen Terminals zu einer **Senke** zusammen und rechnet den kleinsten Schnitt zwischen t und der Senke (ein Fluss). Von mehreren gleich billigen nimmt die Demo den mit der **kleinsten Seite** um t.
 3. **Verfahren:** Man lässt den **teuersten** der k isolierenden Schnitte weg und nimmt die **Vereinigung** der übrigen k − 1. Sie trennt alle Terminals und kostet höchstens das (2 − 2/k)-Fache des Optimums.
-4. **Untere Schranke:** Jede Leitung eines Optimums liegt in höchstens **zwei** isolierenden Schnitten; das Optimum ist also mindestens die **Hälfte der Summe** aller k isolierenden Schnitte.
+4. **Untere Schranke:** Jede Leitung eines Optimums liegt am Rand von höchstens **zwei** Komponenten; deren Ränder sind zulässige Schnitte für je ein Terminal, also ist das Optimum mindestens die **Hälfte der Summe** aller k isolierenden Schnitte.
 5. **Exakt:** Bis 12 Standorte zählt die Demo alle Zuordnungen der übrigen Standorte zu den Terminals (k^(n−k)) durch; der Schnitt einer Zuordnung ist die Menge der Leitungen zwischen verschieden zugeordneten Standorten.
 
 | Begriff | Bedeutung |

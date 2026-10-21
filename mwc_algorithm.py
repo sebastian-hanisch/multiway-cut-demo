@@ -3,7 +3,7 @@
 **Multiway-Cut:** Gegeben ein Netz mit k Terminals; gesucht ist eine kleinste Menge von Leitungen, nach deren Entfernen keine zwei Terminals mehr verbunden sind. Für k = 2 ist das ein kleinster s-t-Schnitt (Fluss), ab
 k = 3 ist die Aufgabe NP-schwer. **Isolierende Schnitte:** Für jedes Terminal t trennt ein kleinster Schnitt t von allen anderen Terminals (die anderen Terminals werden zu einer Senke zusammengezogen; Fluss,
 Quellenseite so klein wie möglich). Die Vereinigung der k − 1 billigsten dieser Schnitte trennt alle Terminals und kostet höchstens (2 − 2/k)-mal so viel wie das Optimum (Dahlhaus, Johnson, Papadimitriou, Seymour,
-Yannakakis 1994). Untere Schranke: Jede Leitung eines Optimums liegt in höchstens zwei isolierenden Schnitten, also ist das Optimum mindestens die Hälfte der Summe aller k isolierenden Schnitte.
+Yannakakis 1994). Untere Schranke: Jede Leitung eines Optimums liegt am Rand von höchstens zwei Komponenten, deren Ränder sind zulässige Schnitte für je ein Terminal, also ist das Optimum mindestens die Hälfte der Summe aller k isolierenden Schnitte.
 
 **k-Schnitt:** Gesucht ist eine kleinste Menge von Leitungen, nach deren Entfernen das Netz in mindestens k Teile zerfällt. **Greedy-Zerlegen** (Saran, Vazirani 1995): Man teilt immer die Komponente, deren kleinster
 Schnitt am billigsten ist, bis k Komponenten da sind; die Kosten sind höchstens (2 − 2/k)-mal das Optimum. Alle Leitungen zählen gleich (ungewichtet)."""
